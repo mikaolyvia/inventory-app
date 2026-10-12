@@ -56,9 +56,12 @@ $user = currentUser();
 <body>
     <div class="sidebar">
         <h2>🎵 Inventaris Musik</h2>
-        <a href="/inventory-app/public/dashboard.php">Dashboard</a>
-        <a href="/inventory-app/public/products/index.php">Daftar Produk</a>
-        <a href="/inventory-app/public/stock/index.php">Transaksi Stok</a>
+        <a href="/inventory-app/public/dashboard.php">📊 Dashboard</a>
+        <a href="/inventory-app/public/products/index.php">🎸 Daftar Produk</a>
+        <a href="/inventory-app/public/categories/index.php">📁 Kategori Musik</a>
+        <a href="/inventory-app/public/suppliers/index.php">🚚 Supplier / Distributor</a>
+        <a href="/inventory-app/public/product_suppliers/index.php">🔗 Produk & Supplier</a>
+        <a href="/inventory-app/public/stock/index.php">🔄 Transaksi Stok</a>
         
         <div style="font-size: 0.85rem; padding: 10px 14px; color: var(--primary-light); margin-top: 15px;">
             Login: <b><?= e($user['username'] ?? '') ?></b> (<?= e($user['role'] ?? '') ?>)
