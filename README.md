@@ -18,8 +18,8 @@ Aplikasi inventaris berbasis web untuk toko alat musik, dibangun menggunakan PHP
 
 | Role  | Username | Password |
 | ----- | -------- | -------- |
-| Admin | admin    | admin123 |
-| Staff | staff    | staff123 |
+| Admin | admin    | password |
+| Staff | staff    | password |
 
 ## Cara Instalasi
 
